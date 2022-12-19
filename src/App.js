@@ -12,6 +12,8 @@ function App() {
         <Homepage/>
           <p>
             This website is on progress.
+            Please use our facebook page to contact and purchase.
+            Facebook page: <a href="https://www.facebook.com/weniqueBD">WENIQUE</a>
           </p>
       </Container>
     </div>
