@@ -1,21 +1,19 @@
 import './App.css';
 import Homepage from './Components/Homepage/homepage';
 import 'semantic-ui-css/semantic.min.css'
-import { Container } from 'semantic-ui-react';
+import bg from './images/webbg.png';
 
 
 function App() {
   return (
-    <div >
-      
-      <Container textAlign='center'>
-        <Homepage/>
-          <p>
-            This website is on progress.
-            Please use our facebook page to contact and purchase.
-            Facebook page: <a href="https://www.facebook.com/weniqueBD">WENIQUE</a>
-          </p>
-      </Container>
+    <div style={{ backgroundImage: `url(${bg})`,
+    backgroundRepeat  : 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: "100%",
+    height: "100vh",
+    width: "100vw",
+    }}>
+        <Homepage/>  
     </div>
   );
 }
