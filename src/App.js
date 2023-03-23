@@ -6,7 +6,7 @@ import bg from './images/webbg.png';
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${bg})`,
+    <div style={{ backgroundImage: `url(${bg})`, //
     backgroundRepeat  : 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: "100%",

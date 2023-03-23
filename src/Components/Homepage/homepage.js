@@ -9,8 +9,11 @@ function Homepage() {
             <p style={{fontSize: "1.5rem", fontWeight: "1200", backgroundColor: "#283b53", color:"white"}}>
                 This website is on progress.
                 Please use our facebook page to contact and purchase.
-                Facebook page: <a href="https://www.facebook.com/Weniquebangladesh">WENIQUE</a>
+                Facebook page: <a href="https://www.facebook.com/Weniquee/">WENIQUE</a>
             </p>
+          </Container>
+          <Container>
+              <h1 style={{color: "white"}}></h1>
           </Container>
       </div>
     );
