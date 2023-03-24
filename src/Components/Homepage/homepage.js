@@ -13,7 +13,7 @@ function Homepage() {
             </p>
           </Container>
           <Container>
-              <h1 style={{color: "white"}}></h1>
+              <h1 style={{color: "white", textAlign: "center"}}>Available Colours:</h1>
           </Container>
       </div>
     );
