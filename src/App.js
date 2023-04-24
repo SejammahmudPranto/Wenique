@@ -12,8 +12,8 @@ function App() {
     backgroundSize: "100%",
     height: "100vh",
     width: "100vw",
-    }}>
-        <Homepage/>  
+        }}>
+        <Homepage/>
     </div>
   );
 }
